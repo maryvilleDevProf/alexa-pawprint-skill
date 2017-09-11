@@ -1,0 +1,15 @@
+{
+  "name": "alexa-pawprint-skill",
+  "version": "0.0.1",
+  "description": "Alexa skill to provide users with Maryville University facts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa",
+    "maryville"
+  ],
+  "author": "Dustin York",
+  "license": "ISC"
+}
