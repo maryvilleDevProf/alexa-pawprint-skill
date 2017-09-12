@@ -45,8 +45,13 @@ const languageStrings = {
 };
 
 const handlers = {
+  'HelloWorldIntent': function () {
+    this.emit(':tell', 'Hello World!');
+  },
+
     'LaunchRequest': function () {
-        this.emit('GetFact');
+        //this.emit('GetFact');
+        this.emit('HelloWorldIntent');
     },
     'GetNewFactIntent': function () {
         this.emit('GetFact');
@@ -77,7 +82,7 @@ const handlers = {
 
 exports.handler = function (event, context) {
     const alexa = Alexa.handler(event, context);
-    alexa.APP_ID = 1;
+    //alexa.APP_ID = 1;
     // To enable string internationalization (i18n) features, set a resources object.
     alexa.resources = languageStrings;
     alexa.registerHandlers(handlers);

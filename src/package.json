@@ -11,5 +11,8 @@
     "maryville"
   ],
   "author": "Dustin York",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "alexa-sdk": "^1.0.14"
+  }
 }
