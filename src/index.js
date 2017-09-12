@@ -14,7 +14,7 @@ const languageStrings = {
                 'Maryville University is a 130-acre campus of rolling hills, wooded areas, creeks, two lakes and miles of walking trails.',
                 'Any major can take Pawprint for 1, 2 or 3 credit hours by enrolling in COMM 181.',
                 'Maryville University has over 100 student organizations.',
-                'Pawprint’s podcast is called Saints Talk.',
+                'Pawprint’s podcast is called Saints Talk!',
                 'Maryville University has over 90 degree programs.',
                 'You can submit articles or videos to Pawprint by visiting their app or going to www.maryvillepawprint.com.',
                 'Maryville University’s average class size is 15 students.',
